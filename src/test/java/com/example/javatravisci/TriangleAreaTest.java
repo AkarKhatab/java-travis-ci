@@ -6,12 +6,14 @@ import org.junit.Test;
 
 public class TriangleAreaTest {
 
+  //First test should fail and branch not mergeable after status checks.
+
   private TriangleArea triangleArea = new TriangleArea();
 
   @Test
   public void testCalculateArea_withPositiveNumbers() {
     //Given
-    float expectedArea = 8.0f;
+    float expectedArea = 0.0f;
     Coordinates a = new Coordinates(0, 0);
     Coordinates b = new Coordinates(2, 4);
     Coordinates c = new Coordinates(4, 0);
