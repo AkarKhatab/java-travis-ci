@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TriangleAreaTest {
 
-  //Tests should be successful and mergeable after status checks
+  //Tests should be successful and mergeable after status checks and the required review.
 
   private TriangleArea triangleArea = new TriangleArea();
 
